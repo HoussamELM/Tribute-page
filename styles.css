@@ -1,7 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-}
+
 main{
     width: 100%;
     border-radius: 5px;
@@ -9,8 +6,9 @@ main{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    margin-top: 1.5%;
+    
+    
 }
 main figure{
     display: block;
@@ -19,9 +17,24 @@ main figure{
     min-width: 50%;
     max-width: 90%;
     margin: auto;
-    border: 1px solid black;
   }
   
 img {
     width: 100%;
   }
+  ul{
+      justify-content: center;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      min-width: 50%;
+      max-width: 90%;
+      margin: auto;
+      font-size: 18px;
+  }
+  ul li{
+      margin: 10px;
+  }
+#title{
+    font-size: 50px;
+}
