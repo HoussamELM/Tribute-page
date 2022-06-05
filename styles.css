@@ -1,0 +1,21 @@
+main{
+    width: 100%;
+    border-radius: 5px;
+    background-color:rgb(223, 221, 221);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+main figure{
+    background-color: rgb(255, 255, 255);
+    padding: 10px ;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+img {
+    width: 100%;
+}
