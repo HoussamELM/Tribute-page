@@ -1,4 +1,21 @@
-
+::-webkit-scrollbar {
+    display: none;
+}
+@media screen and (min-width: 950px) {
+  html {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin-right: 10px;
+  margin-left: 10px;
+}
 main{
     width: 100%;
     border-radius: 5px;
@@ -6,35 +23,64 @@ main{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 1.5%;
-    
-    
+    margin-top: 1.5%;   
+    margin-bottom: 1.5%;
 }
 main figure{
     display: block;
     background-color: rgb(255, 255, 255);
-    padding: 10px auto 10px auto;
-    min-width: 50%;
-    max-width: 90%;
-    margin: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 10px;
+    border-radius: 10px;
+
   }
+#title-desc{
+  margin: 1% 0 1%;
+}
   
 img {
     width: 100%;
   }
-  ul{
-      justify-content: center;
-      text-align: left;
-      display: flex;
-      flex-direction: column;
-      min-width: 50%;
-      max-width: 90%;
-      margin: auto;
-      font-size: 18px;
+  ul {
+    padding: 0;
   }
+  ul li {
+    padding: 0 15px 15px 25px;
+    position: relative;
+    text-align: left; 
+    margin: auto;
+    width: 50%;
+  }
+@media (max-width: 550px){
   ul li{
-      margin: 10px;
+    width: 80%;
   }
+}
+
 #title{
     font-size: 50px;
+    margin-top: 1%;
+}
+#link{
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.fp{
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  font-size: 16px;
+}
+@media (max-width: 550px){
+  .fp{
+    width: 80%;
+  }
+h3{
+  margin: 3%;
+}
+figcaption{
+  margin: 2%;
 }
