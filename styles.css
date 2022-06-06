@@ -1,86 +1,86 @@
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 @media screen and (min-width: 950px) {
   html {
-      width: 100%;
-      margin: 0;
-      padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   margin-right: 10px;
   margin-left: 10px;
 }
-main{
-    width: 100%;
-    border-radius: 5px;
-    background-color:rgb(223, 221, 221);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1.5%;   
-    margin-bottom: 1.5%;
+main {
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(223, 221, 221);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
-main figure{
-    display: block;
-    background-color: rgb(255, 255, 255);
-    padding-left: 20%;
-    padding-right: 20%;
-    margin: 10px;
-    border-radius: 10px;
-
-  }
-#title-desc{
+main figure {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 10px;
+  border-radius: 10px;
+}
+#title-desc {
   margin: 1% 0 1%;
 }
-  
+
 img {
-    width: 100%;
-  }
-  ul {
-    padding: 0;
-  }
+  width: 100%;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  padding: 0 15px 15px 25px;
+  position: relative;
+  text-align: left;
+  margin: auto;
+  width: 50%;
+}
+@media (max-width: 550px) {
   ul li {
-    padding: 0 15px 15px 25px;
-    position: relative;
-    text-align: left; 
-    margin: auto;
-    width: 50%;
-  }
-@media (max-width: 550px){
-  ul li{
     width: 80%;
   }
 }
 
-#title{
-    font-size: 50px;
-    margin-top: 1%;
+#title {
+  font-size: 50px;
+  margin-top: 1%;
 }
-#link{
+#link {
   font-size: 20px;
   font-weight: 900;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.fp{
+.fp {
   width: 30%;
   margin: auto;
   text-align: left;
   font-size: 16px;
 }
-@media (max-width: 550px){
-  .fp{
+@media (max-width: 550px) {
+  .fp {
     width: 80%;
-  }}
-h3{
+  }
+}
+h3 {
   margin: 3%;
 }
-figcaption{
+figcaption {
   margin: 2%;
 }
